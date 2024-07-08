@@ -7,7 +7,7 @@ const ItemList = ({ items }) => {
 
   const dispatch=useDispatch();
   const handleAddItems=(item)=>{
-    //will dispatch an action from cart slice
+    
     dispatch(addItem(item));
   }
 

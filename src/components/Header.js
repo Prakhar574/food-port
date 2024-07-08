@@ -8,13 +8,13 @@ const Header = () => {
   const[logbtn, setlogbtn]=useState("Login");
   const onlineStatus = useOnlineStatus();
 
-  //useContext example
+ 
   const {loggedInUser}=useContext(UserContext);
 
-  //using selector to subscribe the cart items or store
+
   const cartItems= useSelector((store)=>store.cart.items);
 
-  //refresh page
+  
   const refreshPage=()=>{
     window.location.reload(false);
   }

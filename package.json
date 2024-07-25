@@ -2,7 +2,6 @@
   "name": "foodwheels",
   "version": "1.0.0",
   "description": "",
-  "main": "App.js",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html",
@@ -10,14 +9,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shivamxaryan/FoodWheels.git"
+    "url": "https://github.com/Prakhar574/food-port"
   },
   "author": "Shivam Aryan",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shivamxaryan/FoodWheels/issues"
-  },
-  "homepage": "https://github.com/shivamxaryan/FoodWheels#readme",
+ 
   "devDependencies": {
     "parcel": "^2.9.3",
     "parcel-bundler": "^1.12.5",
